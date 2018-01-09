@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 
 	res.sendFile('./public/html/index.html', {root: './' })
 
-	console.log('sent index.html')
+	console.log('sent RPS index.html')
 })
 
 var port = 8087
